@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: #005f47;
+}
+#input{
+    width: 230px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 16px;
+    /*color: #C3C1E5;*/
+    margin-top: 30px;
+    margin-left: 525px;
+    /*border: 2px solid grey;*/
+    border-radius: 10px;
+    background-color: #f0fff0; /* Светло-зелёный фон */
+    color: #005f47; /* Тёмно-зелёный текст */
+    border: 1px solid #00cc99;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+    border: 1px solid #00cc99;
+}
+::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px; 
+    color: #005f47;
+}
+#btn{
+    width: 90px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #f0fff0; /* Светло-зелёный фон */
+    color: #005f47; /* Тёмно-зелёный текст */
+    border: 1px solid #00cc99;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+    border: 1px solid #00cc99;
+    margin-left: 10px;
+}
+#daynight{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #f0fff0; /* Светло-зелёный фон */
+    color: #005f47; /* Тёмно-зелёный текст */
+    border: 1px solid #00cc99;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+    border: 1px solid #00cc99;
+}
+#info{
+    width: 350px;
+    height: 220px;
+    background-color: #f0fff0; /* Светло-зелёный фон */
+    color: #005f47; /* Тёмно-зелёный текст */
+    border: 1px solid #00cc99;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+    border: 1px solid #00cc99;
+    margin: 30px 550px;
+    border-radius: 15px;
+}
+#info h2{
+    padding: 20px 0 0 30px;
+}
+#info p{
+    padding: 5px 0 0 30px;
+}
